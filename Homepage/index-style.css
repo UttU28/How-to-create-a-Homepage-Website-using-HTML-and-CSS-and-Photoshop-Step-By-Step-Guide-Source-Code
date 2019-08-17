@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.background{
+    background: url(background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    height: 70px;
+    background: rgba(0,0,0,0.3);
+    align-items: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: #fff;
+}
+
+.companyname{
+    flex: 1;
+    margin-left: 140px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+
+.navlist{
+    flex:1;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    color: #fff;
+    margin-top: 25vh;
+    margin-left: 100px;
+}
+
+.fruits{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 13px;
+}
+
+.nature{
+    font-size: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    display: flex;
+    align-content: center;
+}
+
+.button a{
+    border: 1px solid #fff;
+    padding: 0 0 0 10px;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.button a i{
+    border: 1px orange solid;
+    border-radius: 50%;
+    padding: 10px;
+    background: orange;
+}
